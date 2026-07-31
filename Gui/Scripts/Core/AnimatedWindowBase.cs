@@ -48,6 +48,7 @@ namespace Gui.Windows
 
         private void StartAnimation()
         {
+            Debug.Log($"[AnimWindow] StartAnimation | {gameObject.name} | frame={Time.frameCount} | isOpen={_isOpen} | isRunning={_isRunning}");
             Animator.SetBool(IsVisibleKey, _isOpen);
 
 			if (!_isRunning && gameObject.activeInHierarchy)
@@ -60,6 +61,7 @@ namespace Gui.Windows
 
         private IEnumerator WaitAnimationDone()
         {
+            Debug.Log($"[AnimWindow] WaitAnimationDone START | {gameObject.name} | frame={Time.frameCount}");
             _isRunning = true;
             System.Action action;
 
@@ -85,6 +87,7 @@ namespace Gui.Windows
             }
 
             _isRunning = false;
+            Debug.Log($"[AnimWindow] WaitAnimationDone EXIT | {gameObject.name} | frame={Time.frameCount} | action={action.Method.Name}");
             action.Invoke();
         }
 

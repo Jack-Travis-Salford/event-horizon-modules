@@ -79,7 +79,7 @@
     <string name="ChallengeCompleted">Challenge completed</string>
     <string name="SurvivalPanelHeader">Survival</string>
     <string name="SurvivalDescription">The longer you survive, the better your reward will be.</string>
-    <string name="ArenaPanelHeader">Online arena</string>
+    <string name="ArenaPanelHeader">Arena</string>
     <string name="ArenaDescription">You have to pay if you want to fight here. Only one ship can be chosen.</string>
     <string name="BossPanelHeader">Flagship</string>
     <string name="BossDescription">Huge military ship detected.</string>

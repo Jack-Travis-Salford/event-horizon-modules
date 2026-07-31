@@ -79,7 +79,7 @@
     <string name="ChallengeCompleted">Kihívás teljesítve</string>
     <string name="SurvivalPanelHeader">Túlélés</string>
     <string name="SurvivalDescription">Minél tovább kitartasz, annál értékesebb lesz a jutalmad.</string>
-    <string name="ArenaPanelHeader">Online Aréna</string>
+    <string name="ArenaPanelHeader">Aréna</string>
     <string name="ArenaDescription">Fizetned kell, hogy itt harcolhass. Csak egy hajót választhatsz.</string>
     <string name="BossPanelHeader">Zászlóshajó</string>
     <string name="BossDescription">Óriási zászlóshajót észleltünk.</string>
