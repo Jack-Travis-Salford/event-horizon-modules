@@ -88,4 +88,8 @@
     <string name="InvalidSavegame">Unable to load the saved game file</string>
     <string name="ExportProgress">Export progress...</string>
     <string name="ImportProgress">Import progress...</string>
+    <string name="SeasonalEventDefault">Default (system date)</string>
+    <string name="SeasonalEventChristmas">Force: Christmas</string>
+    <string name="SeasonalEventHalloween">Force: Halloween</string>
+    <string name="SeasonalEventEaster">Force: Easter</string>
 </resources>
